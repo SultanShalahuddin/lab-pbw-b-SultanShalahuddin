@@ -1,0 +1,69 @@
+body{
+  margin : 0;
+  }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: bisque;
+  font-size: 50px;
+  width : 100%;
+  margin-bottom: 40px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  
+  .card {
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    border: 2px solid #ccc; 
+    padding: 10px;
+    border-radius: 4px; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); 
+    margin : 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #ddd;
+    font-size: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .warnain{
+    background-color: antiquewhite;
+  }
+
+  .tengah{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .tmargin{
+    margin:10px;
+  }
+
+  .bgh2{
+    background-color: antiquewhite;
+    padding:10px;
+  }
